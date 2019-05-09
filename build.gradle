@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'mmarkiew.analytisc'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.google.apis:google-api-services-analyticsreporting:v4-rev137-1.25.0'
+    compile 'com.google.api-client:google-api-client-gson:1.25.0'
+}
